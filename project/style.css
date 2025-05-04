@@ -1,1 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: brown;
+    margin: 0;
+    padding: 0;
+}
 
+header {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+.login-form {
+    max-width: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form label,
+.login-form input,
+.login-form button {
+    margin-bottom: 10px;
+}
